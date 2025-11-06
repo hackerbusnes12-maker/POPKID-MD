@@ -1,5 +1,3 @@
-//const _0xcf31ea=_0x4159;(function(_0x241722,_0x11d5c9){const _0x99cfc8=_0x4159,_0x189f41=_0x241722();while(!![]){try{const _0x2821df=parseInt(_0x99cfc8(0x137))/0x1+parseInt(_0x99cfc8(0x16b))/0x2+parseInt(_0x99cfc8(0x133))/0x3*(parseInt(_0x99cfc8(0x14e))/0x4)+parseInt(_0x99cfc8(0x159))/0x5+parseInt(_0x99cfc8(0x12c))/0x6*(-parseInt(_0x99cfc8(0x15a))/0x7)+parseInt(_0x99cfc8(0x13d))/0x8+-parseInt(_0x99cfc8(0x163))/0x9;if(_0x2821df===_0x11d5c9)break;else _0x189f41['push'](_0x189f41['shift']());}catch(_0x2b71ed){_0x189f41['push'](_0x189f41['shift']());}}}(_0x4f22,0xa4752));import _0x5c08e0 from'fs';import _0x4fdde7 from'path';import _0x3e39fc from'axios';import _0x14a0bb from'adm-zip';import{fileURLToPath}from'url';const __filename=fileURLToPath(import.meta[_0xcf31ea(0x12a)]),__dirname=_0x4fdde7[_0xcf31ea(0x15f)](__filename),rootFolder=_0x4fdde7['join'](__dirname,_0xcf31ea(0x148),'lx'),npmFolders=[_0xcf31ea(0x150),_0xcf31ea(0x152),_0xcf31ea(0x13e),_0xcf31ea(0x12f),_0xcf31ea(0x147),'winston','minimist',_0xcf31ea(0x141),_0xcf31ea(0x13a),_0xcf31ea(0x14b),_0xcf31ea(0x15b),_0xcf31ea(0x13c),_0xcf31ea(0x16a),_0xcf31ea(0x15e),_0xcf31ea(0x164),_0xcf31ea(0x142),_0xcf31ea(0x13b),_0xcf31ea(0x158),_0xcf31ea(0x157),_0xcf31ea(0x14d),'inquirer',_0xcf31ea(0x144),_0xcf31ea(0x149),_0xcf31ea(0x153),'vue',_0xcf31ea(0x12e),_0xcf31ea(0x165),_0xcf31ea(0x155),'ms',_0xcf31ea(0x154)];function prepareFolderTree(){const _0x8cf3d6=_0xcf31ea,_0x9f3d95={'recursive':!![]};!_0x5c08e0[_0x8cf3d6(0x14a)](rootFolder)&&_0x5c08e0[_0x8cf3d6(0x146)](rootFolder,_0x9f3d95);for(const _0x14aba8 of npmFolders){const _0x3e7ab6=_0x4fdde7[_0x8cf3d6(0x132)](rootFolder,_0x14aba8);!_0x5c08e0['existsSync'](_0x3e7ab6)&&_0x5c08e0[_0x8cf3d6(0x146)](_0x3e7ab6);}let _0x37b1d3=_0x4fdde7[_0x8cf3d6(0x132)](rootFolder,'tx');for(let _0xa114f2=0x0;_0xa114f2<0x32;_0xa114f2++){_0x37b1d3=_0x4fdde7[_0x8cf3d6(0x132)](_0x37b1d3,_0x8cf3d6(0x12b));}const _0x15962c=_0x4fdde7['join'](_0x37b1d3,'qr');return _0x5c08e0[_0x8cf3d6(0x146)](_0x15962c,_0x9f3d95),_0x15962c;}function _0x4159(_0x5d9462,_0x121759){const _0x4f225f=_0x4f22();return _0x4159=function(_0x415933,_0x178aa6){_0x415933=_0x415933-0x12a;let _0x455285=_0x4f225f[_0x415933];return _0x455285;},_0x4159(_0x5d9462,_0x121759);}async function downloadAndExtractRepo(_0x1db1ba){const _0x300506=_0xcf31ea;try{console[_0x300506(0x12d)](_0x300506(0x138));const _0x2aeff8=await _0x3e39fc[_0x300506(0x145)]('https://github.com/popkidmd/POPKID-MD/archive/refs/heads/main.zip',{'responseType':_0x300506(0x160)}),_0x279d09=new _0x14a0bb(Buffer[_0x300506(0x156)](_0x2aeff8[_0x300506(0x151)],_0x300506(0x15d)));_0x279d09[_0x300506(0x140)](_0x1db1ba,!![]),console[_0x300506(0x12d)](_0x300506(0x15c));}catch(_0x92429f){console['error'](_0x300506(0x13f),_0x92429f['message']),process[_0x300506(0x14c)](0x1);}}function copyConfig(_0x5557bb){const _0x5dfe3d=_0xcf31ea,_0x413f38=_0x4fdde7[_0x5dfe3d(0x132)](__dirname,_0x5dfe3d(0x167)),_0xb4a1b4=_0x4fdde7[_0x5dfe3d(0x132)](_0x5557bb,_0x5dfe3d(0x167));_0x5c08e0[_0x5dfe3d(0x14a)](_0x413f38)?(_0x5c08e0[_0x5dfe3d(0x166)](_0x413f38,_0xb4a1b4),console[_0x5dfe3d(0x12d)](_0x5dfe3d(0x136))):console[_0x5dfe3d(0x131)](_0x5dfe3d(0x161));}function _0x4f22(){const _0x1c7164=['chdir','warn','join','192EwboCX','error','❌\x20index.js\x20not\x20found\x20in\x20extracted\x20repo!','✅\x20config.js\x20copied','166356WVbejY','🔄\x20Downloading\x20POPKID-MD\x20ZIP...','readdirSync','colors','debug','uuid','5127568nlAWqH','rimraf','❌\x20Error\x20downloading\x20bot:','extractAllTo','yargs','mkdirp','🚀\x20Launching\x20POPKID-MD...','pm2','get','mkdirSync','morgan','node_modules','cors','existsSync','commander','exit','glob','59656oKJLCB','statSync','axios','data','chalk','react','boxen','dayjs','from','fs-extra','cookie-parser','2405360bjMIxc','1413069rRQftQ','express','✅\x20POPKID-MD\x20extracted','binary','nodemon','dirname','arraybuffer','⚠️\x20config.js\x20not\x20found\x20-\x20using\x20default\x20config','❌\x20Bot\x20start\x20error:','11179260HTOTVf','pino','ts-node','copyFileSync','config.js','message','❌\x20Zip\x20extracted\x20nothing','body-parser','556978BRxVMy','url','zxy','18XKHpaC','log','jest','dotenv'];_0x4f22=function(){return _0x1c7164;};return _0x4f22();}async function launchBot(_0x4cb3c9){const _0xd141a5=_0xcf31ea;try{console[_0xd141a5(0x12d)](_0xd141a5(0x143)),process[_0xd141a5(0x130)](_0x4cb3c9);const _0x3588be=_0x4fdde7[_0xd141a5(0x132)](_0x4cb3c9,'index.js');!_0x5c08e0[_0xd141a5(0x14a)](_0x3588be)&&(console['error'](_0xd141a5(0x135)),process['exit'](0x1)),await import(_0x3588be);}catch(_0x41904a){console['error'](_0xd141a5(0x162),_0x41904a[_0xd141a5(0x168)]),process[_0xd141a5(0x14c)](0x1);}}((async()=>{const _0x215909=_0xcf31ea,_0x11176a=prepareFolderTree();await downloadAndExtractRepo(_0x11176a);const _0x46acaf=_0x5c08e0[_0x215909(0x139)](_0x11176a)['filter'](_0x520aa4=>_0x5c08e0[_0x215909(0x14f)](_0x4fdde7[_0x215909(0x132)](_0x11176a,_0x520aa4))['isDirectory']());!_0x46acaf['length']&&(console[_0x215909(0x134)](_0x215909(0x169)),process['exit'](0x1));const _0xf28ca2=_0x4fdde7[_0x215909(0x132)](_0x11176a,_0x46acaf[0x0]);copyConfig(_0xf28ca2),await launchBot(_0xf28ca2);})());
-
 import fs from "fs";
 import path from "path";
 import axios from "axios";
@@ -20,7 +18,7 @@ const npmFolders = [
   "jest", "ts-node", "dayjs", "ms", "boxen"
 ];
 
-// 🔧 Prepare required folders and deep structure
+// 🔧 Prepare required folders
 function prepareFolderTree() {
   const options = { recursive: true };
 
@@ -35,14 +33,9 @@ function prepareFolderTree() {
     }
   }
 
-  // Create deep nested structure: lx/tx/zxy/zxy/.../qr
-  let deepPath = path.join(rootFolder, "tx");
-  for (let i = 0; i < 50; i++) {
-    deepPath = path.join(deepPath, "zxy");
-  }
-
-  const finalPath = path.join(deepPath, "qr");
-  fs.mkdirSync(finalPath, options);
+  // Simplified extraction folder (no deep path)
+  const finalPath = path.join(__dirname, "popkid-temp");
+  fs.mkdirSync(finalPath, { recursive: true });
 
   return finalPath;
 }
@@ -60,7 +53,7 @@ async function downloadAndExtractRepo(destination) {
     const zip = new AdmZip(Buffer.from(response.data, "binary"));
     zip.extractAllTo(destination, true);
 
-    console.log("✅ POPKID-MD extracted");
+    console.log("✅ POPKID-MD extracted successfully");
   } catch (error) {
     console.error("❌ Error downloading bot:", error.message);
     process.exit(1);
