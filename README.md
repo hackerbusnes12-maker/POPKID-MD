@@ -83,4 +83,4 @@
 
 ## ©️ **Creator**
 
-Developed with ❤️ by **popkid**.
+Developed with ❤️ by **GCB BMXd**.
